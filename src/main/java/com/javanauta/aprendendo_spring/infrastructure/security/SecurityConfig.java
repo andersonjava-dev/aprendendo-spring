@@ -68,5 +68,4 @@ public class SecurityConfig {
         // Obtém e retorna o AuthenticationManager da configuração de autenticação
         return authenticationConfiguration.getAuthenticationManager();
     }
-
 }
