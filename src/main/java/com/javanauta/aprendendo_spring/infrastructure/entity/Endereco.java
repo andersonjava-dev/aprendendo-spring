@@ -30,5 +30,4 @@ public class Endereco {
     @Column(name = "rua", length = 100)
     private String rua;
 
-
 }
