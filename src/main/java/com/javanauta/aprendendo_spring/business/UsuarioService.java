@@ -35,7 +35,6 @@ public class UsuarioService {
             throw new ConflictException("Email já cadastrado ", e.getCause());
 
         }
-
     }
 
     public boolean verificaEmailExistente(String email) {
